@@ -14,8 +14,14 @@ Input was given as points, vertex (cell) connectivity matrix and edge connectivi
 
 ## Output
 
-* Without any quality improvement
-Vanilla implementation of algorithm gives following grid structure:
+* Vanilla implementation of algorithm (without any quality improvement) gives following grid structure:
+![alt tag](https://raw.githubusercontent.com/Adarsh-Barik/UnstructuredGrid/master/images/no_quality.png)
 * We can improve grid structure by edge swapping:
+![alt tag](https://raw.githubusercontent.com/Adarsh-Barik/UnstructuredGrid/master/images/edge_swap.png)
 * Quality can be improved even further by point smoothening:
+![alt tag](https://raw.githubusercontent.com/Adarsh-Barik/UnstructuredGrid/master/images/point_smooth.png)
 * Example of geometric adaptability:
+![alt tag](https://raw.githubusercontent.com/Adarsh-Barik/UnstructuredGrid/master/images/geo_no_quality.png)
+![alt tag](https://raw.githubusercontent.com/Adarsh-Barik/UnstructuredGrid/master/images/geo_cylinder.png)
+![alt tag](https://raw.githubusercontent.com/Adarsh-Barik/UnstructuredGrid/master/images/geo_edge_swap.png)
+![alt tag](https://raw.githubusercontent.com/Adarsh-Barik/UnstructuredGrid/master/images/geo_point_smooth.png)
